@@ -1,0 +1,312 @@
+[
+    { 
+        "sladko": [
+            {
+                "Palačinke fi 50": [
+                    {
+                        "name": "Navadna palačinka",
+                        "price": 2.90 
+                    },
+                    {
+                        "name": "Čoko palačinka",
+                        "price": 2.90
+                    },
+                    {
+                        "name": "Ajdova palačinka",
+                        "price": 3.00 
+                    },
+                    {
+                        "name": "Red Velvet",
+                        "price": 3.00
+                    }
+                ]
+            },
+            {
+                "Premium namazi": [
+                    {
+                        "name": "Ruby čokolada",
+                        "price": 2.50
+                    },
+                    {
+                        "name": "Piscot Speculoos",
+                        "price": 1.80
+                    },
+                    {
+                        "name": "Crunchy jagoda",
+                        "price": 1.80
+                    },
+                    {
+                        "name": "Pistacija",
+                        "price": 2.00
+                    },
+                    {
+                        "name": "Bela premium čokolada",
+                        "price": 1.60
+                    },
+                    {
+                        "name": "Bela crunchy čokolada",
+                        "price": 1.70
+                    },
+                    {
+                        "name": "Ribana pomaranča",
+                        "price": 1.80 
+                    }
+                ]
+            },
+            {
+                "Sladki namazi": [
+                    {
+                        "name": "Ferrero",
+                        "price": 1.40
+                    },
+                    {
+                        "name": "Raffaello",
+                        "price": 1.40
+                    },
+                    {
+                        "name": "Nutella",
+                        "price": 1.40
+                    },
+                    {
+                        "name": "Beli",
+                        "price": 1.30
+                    },
+                    {
+                        "name": "Kinder",
+                        "price": 1.30
+                    },
+                    {
+                        "name": "Arašidov",
+                        "price": 1.30
+                    },
+                    {
+                        "name": "Marmelada",
+                        "price": 1.00
+                    },
+                    {
+                        "name": "Med",
+                        "price": 0.90
+                    }
+                ]
+            },
+            {
+                "Čokoladice": [
+                    {
+                        "name": "Raffaello",
+                        "price": 0.80
+                    },
+                    {
+                        "name": "Ferrero Rocher",
+                        "price": 0.90
+                    },
+                    {
+                        "name": "Kinder Bueno bela",
+                        "price": 0.90 
+                    },
+                    {
+                        "name": "Kinder Bueno temna",
+                        "price": 0.90
+                    },
+                    {
+                        "name": "Kinder čokolada",
+                        "price": 1.00
+                    },
+                    {
+                        "name": "Krem bananica",
+                        "price": 0.70
+                    },
+                    {
+                        "name": "Twix",
+                        "price": 0.90
+                    },
+                    {
+                        "name": "Mars",
+                        "price": 0.90
+                    },
+                    {
+                        "name": "M&Ms bonboni",
+                        "price": 0.70
+                    }
+                ]
+            },
+            {
+                "Keksi/biskvit": [
+                    {
+                        "name": "Oreo",
+                        "price": 0.80
+                    },
+                    {
+                        "name": "Oreo drobtine",
+                        "price": 0.90
+                    },
+                    {
+                        "name": "Oreo v mleku",
+                        "price": 1.00
+                    },
+                    {
+                        "name": "Plazma",
+                        "price": 0.90
+                    },
+                    {
+                        "name": "Plazma v mleku",
+                        "price": 1.00
+                    },
+                    {
+                        "name": "Jaffa",
+                        "price": 0.70
+                    },
+                    {
+                        "name": "Manner napolitanke",
+                        "price": 0.80
+                    }
+                ]
+            },
+            {
+                "Sadje": [
+                    {
+                        "name": "Jagode (v sezoni)",
+                        "price": 1.00
+                    },
+                    {
+                        "name": "Maline",
+                        "price": 1.00
+                    },
+                    {
+                        "name": "Banane",
+                        "price": 0.80
+                    },
+                    {
+                        "name": "Višnje",
+                        "price": 0.80
+                    },
+                    {
+                        "name": "Gozdni sadeži",
+                        "price": 1.00
+                    },
+                    {
+                        "name": "Ananas",
+                        "price": 0.90
+                    }
+                ]
+            },
+            {
+                "Oreščki": [
+                    {
+                        "name": "Mandlji",
+                        "price": 1.00
+                    },
+                    {
+                        "name": "Arašidi",
+                        "price": 0.80
+                    },
+                    {
+                        "name": "Orehi",
+                        "price": 0.90
+                    },
+                    {
+                        "name": "Kokos",
+                        "price": 0.70
+                    },
+                    {
+                        "name": "Lešnik",
+                        "price": 1.00
+                    }
+                ]
+            },
+            {
+                "Ostalo": [
+                    {
+                        "name": "Bailey's čokoladni liker",
+                        "price": 1.60
+                    },
+                    {
+                        "name": "Bailey's mandljev liker",
+                        "price": 1.60
+                    },
+                    {
+                        "name": "Karamelni preliv",
+                        "price": 0.70
+                    },
+                    {
+                        "name": "Čokoladni preliv",
+                        "price": 0.70
+                    },
+                    {
+                        "name": "Jagodni preliv",
+                        "price": 0.70
+                    },
+                    {
+                        "name": "Gozdni sadeži preliv",
+                        "price": 0.70
+                    },
+                    {
+                        "name": "Sladoled vanilija (1 kepica)",
+                        "price": 1.00
+                    },
+                    {
+                        "name": "Sladoled čokolada (1 kepica)",
+                        "price": 1.00
+                    },
+                    {
+                        "name": "Čokoladni puding",
+                        "price": 0.90
+                    },
+                    {
+                        "name": "Vanilijev puding",
+                        "price": 0.90
+                    },
+                    {
+                        "name": "Smetana",
+                        "price": 0.60
+                    },
+                    {
+                        "name": "Nesquik kakav",
+                        "price": 0.60
+                    },
+                    {
+                        "name": "Čokoladne mrvice",
+                        "price": 0.60
+                    },
+                    {
+                        "name": "Barvne mrvice",
+                        "price": 0.60
+                    },
+                    {
+                        "name": "Sladkor v prahu",
+                        "price": 0.40
+                    }
+                ]
+            },
+            {
+                "Super šejki": [
+                    {
+                        "name": "Oreo šejk grande",
+                        "price": 4.50
+                    },
+                    {
+                        "name": "Kinder šejk grande",
+                        "price": 4.60
+                    },
+                    {
+                        "name": "Nutella šejk grande",
+                        "price": 4.50
+                    },
+                    {
+                        "name": "Plazma šejk grande",
+                        "price": 4.50
+                    }
+                ]
+            }
+        ],
+        "slano": [
+            {
+
+            }
+        ],
+        "pijača": [
+            {
+                
+            }
+        ]
+    }
+]
