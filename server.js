@@ -15,7 +15,15 @@ require("./routes/Items");
 require("./routes/Orders");
 
 app.get("/menu", (req, res, next) => {
-	let products = require("./data/products.json");
+	let sweet = require("./data/sweet.json");
+	let salty = require("./data/salty.json");
+	let other = require("./data/other.json");
+
+	let products = [];
+	products.push({ name: "sladko", items: [... sweet ]});
+	products.push({ name: "slano", items: [... salty ]});
+	products.push({ name: "ostalo", items: [... other ]});
+
 	res.json(products);
 });
 
