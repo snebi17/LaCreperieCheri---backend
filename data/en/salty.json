@@ -1,0 +1,62 @@
+[
+    {
+        "Meat/salami": [
+            {
+                "name": "Dry neck",
+                "price": 2.80
+            },
+            {
+                "name": "Ham",
+                "price": 1.10
+            },
+            {
+                "name": "Kulen",
+                "price": 2.00
+            },
+            {
+                "name": "Tuna",
+                "price": 1.80
+            }
+        ]
+    },
+    {
+       "Spreads": [
+            {
+                "name": "Kajmak",
+                "price": 2.00
+            },
+            {
+                "name": "Cream",
+                "price": 0.60
+            }
+       ]
+    },
+    {
+        "Cheeses": [
+            {
+                "name": "Feta",
+                "price": 1.50
+            },
+            {
+                "name": "Grated cheese",
+                "price": 1.60
+            },
+            {
+                "name": "Zdenka glazed cream cheese",
+                "price": 1.00
+            }
+        ]
+    },
+    {
+        "Other": [
+            {
+                "name": "Ketchup",
+                "price": 0.50
+            },
+            {
+                "name": "Mayonnaise",
+                "price": 0.50
+            }
+        ]
+    }
+]

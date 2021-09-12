@@ -1,132 +1,30 @@
-const express = require("express");
-const app = express();
-const axios = require("axios");
-const fs = require("fs");
-const jsdom = require("jsdom");
+const express = require('express');
+const server = express();
+const URL = process.env.URL || 'http://localhost';
+const PORT = process.env.PORT || 4000;
+const bodyParser = require('body-parser');
 
-const cors = require("cors");
+const cors = require('cors');
 
-app.use(cors());
+server.use(cors({ origin: `${URL}:8080` }));
 
-const PORT = 4000;
+server.use(bodyParser.json());
+server.use(bodyParser.urlencoded({ extended: true }));
 
-require("./models/db");
-require("./routes/Items");
-require("./routes/Orders");
-
-app.get("/menu", (req, res, next) => {
-	let sweet = require("./data/sweet.json");
-	let salty = require("./data/salty.json");
-	let other = require("./data/other.json");
-
-	let products = [];
-	products.push({ name: "sladko", items: [... sweet ]});
-	products.push({ name: "slano", items: [... salty ]});
-	products.push({ name: "ostalo", items: [... other ]});
-
-	res.json(products);
-});
-
-// var data = {};
-// data.items = [];
-
-// app.get('/', (req, res, next) => {
-//     axios.get('https://www.lacreperie-cheri.si')
-//     .then(res => {
-//         data.items.push(res.data);
-
-//         fs.writeFile('./data/page.json', JSON.stringify(data.items), function(err) {
-//             if (err) throw err;
-//         });
-//     })
-//     .catch(err => {
-//         // Handle error...
-//     });
-//     res.send(`Hello to API on port ${PORT}! ${req}`)
-// });
-
-// const menu = require('./data/page.json');
+require('./models/db');
+require('./routes/Items')(server);
+require('./routes/Orders')(server);
 
 // app.get('/menu', (req, res, next) => {
-//     var dom = new jsdom.JSDOM(menu);
+// 	let sweet = require(`./data/${req.query.lang}/sweet.json`);
+// 	let salty = require(`./data/${req.query.lang}/salty.json`);
+// 	let drinks = require(`./data/${req.query.lang}/drinks.json`);
 
-//     var items = [];
-
-//     let ime = '';
-//     let cena = 0.00;
-//     let ID = 0;
-
-//     Array.from(dom.window.document.getElementsByClassName('sladkeCol')[0].getElementsByClassName('card')).forEach(el => {
-//         Array.from(el.children).forEach(el_ => {
-//             Array.from(el_.children).forEach((el__) => {
-//                 Array.from(el__.children).forEach((el___) => {
-//                     if (el___.querySelector('p')) {
-//                         ime = (el___.querySelector('p').innerHTML.includes('&amp;')) ? el___.querySelector('p').innerHTML.trim().replace(/&amp;/g, '&') : el___.querySelector('p').innerHTML.trim();
-//                     }
-//                     if (el___.querySelector('span')) {
-//                         cena = el___.querySelector('span').innerHTML.trim();
-//                     }
-//                     items.push({
-//                         id: ID,
-//                         type: 'sladke',
-//                         name: ime,
-//                         price: cena,
-//                     });
-//                     ID++;
-//                 });
-//             });
-//         });
-//     });
-
-//     Array.from(dom.window.document.getElementsByClassName('slaneCol')[0].getElementsByClassName('card')).forEach(el => {
-//         Array.from(el.children).forEach(el_ => {
-//             Array.from(el_.children).forEach((el__) => {
-//                 Array.from(el__.children).forEach((el___) => {
-//                     if (el___.querySelector('p')) {
-//                         ime = (el___.querySelector('p').innerHTML.includes('&amp;')) ? el___.querySelector('p').innerHTML.trim().replace(/&amp;/g, '&') : el___.querySelector('p').innerHTML.trim();
-//                     }
-//                     if (el___.querySelector('span')) {
-//                         cena = el___.querySelector('span').innerHTML.trim();
-//                     }
-//                     items.push({
-//                         id: ID,
-//                         type: 'slane',
-//                         name: ime,
-//                         price: cena,
-//                     });
-//                     ID++;
-//                 });
-//             });
-//         });
-//     });
-
-//     Array.from(dom.window.document.getElementsByClassName('ostaloCol')[0].getElementsByClassName('card')).forEach(el => {
-//         Array.from(el.children).forEach(el_ => {
-//             Array.from(el_.children).forEach((el__) => {
-//                 Array.from(el__.children).forEach((el___) => {
-//                     if (el___.querySelector('p')) {
-//                         ime = (el___.querySelector('p').innerHTML.includes('&amp;')) ? el___.querySelector('p').innerHTML.trim().replace(/&amp;/g, '&') : el___.querySelector('p').innerHTML.trim();
-//                     }
-//                     if (el___.querySelector('span')) {
-//                         cena = el___.querySelector('span').innerHTML.trim();
-//                     }
-//                     items.push({
-//                         id: ID,
-//                         type: 'ostalo',
-//                         name: ime,
-//                         price: cena,
-//                     });
-//                     ID++;
-//                 });
-//             });
-//         });
-//     });
-
-//     fs.writeFile('./data/items.json', JSON.stringify(items), function(err) {
-//         if (err) throw err;
-//     });
-
-//     res.json(items);
+// 	res.json({
+// 		'sweet': sweet,
+// 		'salty': salty,
+// 		'drinks': drinks
+// 	});
 // });
 
-app.listen(PORT);
+server.listen(PORT);
