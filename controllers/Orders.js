@@ -33,7 +33,7 @@ exports.getOrders = (req, res) => {
     Order.find()
         .then(orders => {
             if (!orders) {
-                return res.status(201).send({
+                return res.status(404).send({
                     message: 'Naročila niso bila najdena!'
                 });
             }
@@ -52,7 +52,7 @@ exports.getOrder = (req, res) => {
     Order.findById(req.params.id)
     .then(order => {
         if (!order) {
-            return res.status(201).send({
+            return res.status(404).send({
                 message: 'Naročilo ni bil najdeno!'
             });
         }

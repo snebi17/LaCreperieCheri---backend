@@ -5,7 +5,7 @@ module.exports = itemRouter => {
     itemRouter.use((req, res, next) => {
         res.header(
             // 'Access-Control-Allow-Headers',
-            'Content-Type', 'application/xxx-form-urlencoded'
+            'Content-Type', 'application/json'
         );
         next();
     })

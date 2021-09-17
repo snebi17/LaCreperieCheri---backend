@@ -2,12 +2,18 @@ const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
-const Item = new Schema({
+const Item = {
     name: String,
     price: Number,
     type: String,
+    imgSrc: String,
+    inventory: Number
+}
+
+const Items = new Schema({
     group: String,
-    imgSrc: String
+    products: Array
 });
 
-mongoose.model('Item', Item);
+
+mongoose.model('Items', Items);
