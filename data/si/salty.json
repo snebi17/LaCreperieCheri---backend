@@ -1,62 +1,66 @@
-[
-    {
-        "Meso/salame": [
-            {
-                "name": "Suha vratovina",
-                "price": 2.80
-            },
-            {
-                "name": "Šunka",
-                "price": 1.10
-            },
-            {
-                "name": "Kulen",
-                "price": 2.00
-            },
-            {
-                "name": "Tuna",
-                "price": 1.80
-            }
+{
+    "lang": "si",
+    "group": "slano",
+    "items": [
+        {
+            "Meso/salame": [
+                {
+                    "name": "Suha vratovina",
+                    "price": 2.80
+                },
+                {
+                    "name": "Šunka",
+                    "price": 1.10
+                },
+                {
+                    "name": "Kulen",
+                    "price": 2.00
+                },
+                {
+                    "name": "Tuna",
+                    "price": 1.80
+                }
+            ]
+        },
+        {
+        "Namazi": [
+                {
+                    "name": "Kajmak",
+                    "price": 2.00
+                },
+                {
+                    "name": "Smetana",
+                    "price": 0.60
+                }
         ]
-    },
-    {
-       "Namazi": [
-            {
-                "name": "Kajmak",
-                "price": 2.00
-            },
-            {
-                "name": "Smetana",
-                "price": 0.60
-            }
-       ]
-    },
-    {
-        "Siri": [
-            {
-                "name": "Feta",
-                "price": 1.50
-            },
-            {
-                "name": "Riban sir",
-                "price": 1.60
-            },
-            {
-                "name": "Topljeni sir Zdenka",
-                "price": 1.00
-            }
-        ]
-    },
-    {
-        "Ostalo": [
-            {
-                "name": "Kečap",
-                "price": 0.50
-            },
-            {
-                "name": "Majoneza",
-                "price": 0.50
-            }
-        ]
-    }
-]
+        },
+        {
+            "Siri": [
+                {
+                    "name": "Feta",
+                    "price": 1.50
+                },
+                {
+                    "name": "Riban sir",
+                    "price": 1.60
+                },
+                {
+                    "name": "Topljeni sir Zdenka",
+                    "price": 1.00
+                }
+            ]
+        },
+        {
+            "Ostalo": [
+                {
+                    "name": "Kečap",
+                    "price": 0.50
+                },
+                {
+                    "name": "Majoneza",
+                    "price": 0.50
+                }
+            ]
+        }
+    ]
+}

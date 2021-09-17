@@ -1,278 +1,238 @@
-[
-    {
-        "Coffee": [
-            {
-                "name": "Espresso",
-                "price": 1.20
-            },
-            {
-                "name": "Macchiato",
-                "price": 1.30
-            },
-            {
-                "name": "Latte macchiato",
-                "price": 2.20
-            },
-            {
-                "name": "With milk",
-                "price": 1.40
-            },
-            {
-                "name": "With cream",
-                "price": 1.50
-            },
-            {
-                "name": "Cappuccino",
-                "price": 1.40
-            },
-            {
-                "name": "White",
-                "price": 2.00
-            },
-            {
-                "name": "Decaffeinated",
-                "price": 1.70
-            },
-            {
-                "name": "Decaffeinated with milk",
-                "price": 1.80
-            },
-            {
-                "name": "Decaffeinated with cream",
-                "price": 1.90
-            },
-            {
-                "name": "White decaffeinated",
-                "price": 2.20
-            },
-            {
-                "name": "Cocoa",
-                "price": 2.00
-            },
-            {
-                "name": "Cocoa with cream",
-                "price": 2.20
-            },
-            {
-                "name": "Cup to go",
-                "price": 0.20
-            }
-        ]
-    },
-    {
-        "Teas": [
-            {
-                "name": "Green - mint",
-                "price": 1.90
-            },
-            {
-                "name": "Green - ginger & lemon",
-                "price": 1.90
-            },
-            {
-                "name": "Strawberry & rooibos",
-                "price": 1.90
-            },
-            {
-                "name": "Blueberry & sour cherry",
-                "price": 1.90
-            },
-            {
-                "name": "Mountain",
-                "price": 1.90
-            }
-        ]
-    },
-    {
-        "Supplements": [
-            {
-                "name": "Lemon",
-                "price": 0.30
-            },
-            {
-                "name": "Milk",
-                "price": 0.30
-            },
-            {
-                "name": "Cream",
-                "price": 0.50
-            },
-            {
-                "name": "Soy drink",
-                "price": 0.50
-            },
-            {
-                "name": "Rice drink",
-                "price": 0.50
-            },
-            {
-                "name": "Lactose-free milk",
-                "price": 0.50
-            }
-        ]
-    },
-    {
-        "Non-alcoholic drinks": [
-            {
-                "name": "Natural orange juice 0.1L",
-                "price": 1.40
-            },
-            {
-                "name": "Natural lemonade 0.1L",
-                "price": 2.30
-            },
-            {
-                "name": "Natural lemonade with ginger and honey 0.3L",
-                "price": 2.60
-            },
-            {
-                "name": "Apple/orange juice 0.1L",
-                "price": 1.00
-            },
-            {
-                "name": "Lemongrass water 0.33L",
-                "price": 2.10
-            },
-            {
-                "name": "Coca-cola 0.25L",
-                "price": 2.20
-            },
-            {
-                "name": "Schweppes tonic 0.25L",
-                "price": 2.20
-            },
-            {
-                "name": "Schweppes bitter lemon 0.25L",
-                "price": 2.20
-            },
-            {
-                "name": "Fanta 0.25L",
-                "price": 2.20
-            },
-            {
-                "name": "Ice tea 0.25L",
-                "price": 2.10
-            },
-            {
-                "name": "Radenska carbonated 0.25L",
-                "price": 1.80
-            },
-            {
-                "name": "Radenska 0.25L",
-                "price": 1.80
-            },
-            {
-                "name": "Radenska 0.1L",
-                "price": 0.50
-            }
-        ]
-    },
-    {
-        "Bravo juices 0.25L": [
-            {
-                "name": "Apricot",
-                "price": 2.10
-            },
-            {
-                "name": "Orange",
-                "price": 2.10
-            },
-            {
-                "name": "Ananas",
-                "price": 2.10
-            },
-            {
-                "name": "Blackcurrant",
-                "price": 2.10
-            },
-            {
-                "name": "Strawberry",
-                "price": 2.10
-            }
-        ]
-    },
-    {
-        "Alcoholic drinks": [
-            {
-                "name": "Aperol Spritz",
-                "price": 3.60
-            },
-            {
-                "name": "Sparkling wine 0.75L",
-                "price": 20.00
-            },
-            {
-                "name": "White wine 0.1L",
-                "price": 1.30
-            },
-            {
-                "name": "Red wine 0.1L",
-                "price": 1.30
-            },
-            {
-                "name": "Mulled wine 0.25L",
-                "price": 2.50
-            },
-            {
-                "name": "Gin tonic",
-                "price": 3.90
-            }
-        ]
-    },
-    {
-        "Beer": [
-            {
-                "name": "Heineken 0.3L",
-                "price": 2.50
-            },
-            {
-                "name": "Heineken non-alcoholic 0.3L",
-                "price": 2.40
-            }
-        ]
-    },
-    {
-        "Spirits": [
-            {
-                "name": "Marelica 0.03L",
-                "price": 3.10
-            },
-            {
-                "name": "Kutina/dunja 0.03L",
-                "price": 3.10
-            },
-            {
-                "name": "Viljamovka 0.03L",
-                "price": 3.10
-            },
-            {
-                "name": "Jägermeister 0.03L",
-                "price": 2.80
-            },
-            {
-                "name": "Pelinkovec 0.03L",
-                "price": 2.50
-            },
-            {
-                "name": "Jack Daniels 0.03L",
-                "price": 3.20
-            },
-            {
-                "name": "Jameson 0.03L",
-                "price": 3.20
-            },
-            {
-                "name": "Vodka Smirnoff 0.03L",
-                "price": 2.60
-            },
-            {
-                "name": "Gin 0.03L",
-                "price": 2.80
-            },
-            {
-                "name": "Bacardi rum 0.03L",
-                "price": 2.80
-            }
-        ]
-    }
-]
+{
+    "lang": "en",
+    "group": "pijače",
+    "items": [
+        {
+            "Coffee": [
+                {
+                    "name": "Espresso",
+                    "price": 1.20
+                },
+                {
+                    "name": "Macchiato",
+                    "price": 1.30
+                },
+                {
+                    "name": "Latte macchiato",
+                    "price": 2.20
+                },
+                {
+                    "name": "With milk",
+                    "price": 1.40
+                },
+                {
+                    "name": "With cream",
+                    "price": 1.50
+                },
+                {
+                    "name": "Cappuccino",
+                    "price": 1.40
+                },
+                {
+                    "name": "White",
+                    "price": 2.00
+                },
+                {
+                    "name": "Decaffeinated",
+                    "price": 1.70
+                },
+                {
+                    "name": "Decaffeinated with milk",
+                    "price": 1.80
+                },
+                {
+                    "name": "Decaffeinated with cream",
+                    "price": 1.90
+                },
+                {
+                    "name": "White decaffeinated",
+                    "price": 2.20
+                },
+                {
+                    "name": "Cocoa",
+                    "price": 2.00
+                },
+                {
+                    "name": "Cocoa with cream",
+                    "price": 2.20
+                }
+            ]
+        },
+        {
+            "Supplements": [
+                {
+                    "name": "Lemon",
+                    "price": 0.30
+                },
+                {
+                    "name": "Milk",
+                    "price": 0.30
+                },
+                {
+                    "name": "Cream",
+                    "price": 0.50
+                },
+                {
+                    "name": "Soy drink",
+                    "price": 0.50
+                },
+                {
+                    "name": "Rice drink",
+                    "price": 0.50
+                }
+            ]
+        },
+        {
+            "Non-alcoholic drinks": [
+                {
+                    "name": "Natural orange juice 0,1L",
+                    "price": 1.40
+                },
+                {
+                    "name": "Natural lemonade 0,3L",
+                    "price": 2.30
+                },
+                {
+                    "name": "Natural lemonade with ginger and honey 0,3L",
+                    "price": 2.60
+                },
+                {
+                    "name": "Lemongrass water Romequelle 0,33L",
+                    "price": 2.10
+                },
+                {
+                    "name": "Coca-cola, Coca-cola zero 0,25L",
+                    "price": 2.20
+                },
+                {
+                    "name": "Schweppes tonic 0,25L",
+                    "price": 2.20
+                },
+                {
+                    "name": "Schweppes bitter lemon 0,25L",
+                    "price": 2.20
+                },
+                {
+                    "name": "Schweppes red grapefruit 0,25L",
+                    "price": 2.20
+                },
+                {
+                    "name": "Fanta 0,25L",
+                    "price": 2.20
+                },
+                {
+                    "name": "Ice tea 0,25L",
+                    "price": 2.10
+                },
+                {
+                    "name": "Radenska carbonated 0,25L",
+                    "price": 1.80
+                },
+                {
+                    "name": "Radenska 0,25L",
+                    "price": 1.80
+                },
+                {
+                    "name": "Radenska 0,1L",
+                    "price": 0.50
+                },
+                {
+                    "name": "Radenska elderflower 0,25",
+                    "price": 1.80
+                },
+                {
+                    "name": "Radenska mango lime 0,25L",
+                    "price": 1.80
+                }
+            ]
+        },
+        {
+            "Bravo juices 0,25L": [
+                {
+                    "name": "Apricot",
+                    "price": 2.10
+                },
+                {
+                    "name": "Orange",
+                    "price": 2.10
+                },
+                {
+                    "name": "Apple",
+                    "price": 2.10
+                },
+                {
+                    "name": "Blackcurrant",
+                    "price": 2.10
+                },
+                {
+                    "name": "Strawberry",
+                    "price": 2.10
+                }
+            ]
+        },
+        {
+            "Alcoholic drinks": [
+                {
+                    "name": "Aperol Spritz",
+                    "price": 3.60
+                },
+                {
+                    "name": "Sparkling wine 0,75L",
+                    "price": 20.00
+                },
+                {
+                    "name": "Gin tonic",
+                    "price": 3.90
+                }
+            ]
+        },
+        {
+            "Beer": [
+                {
+                    "name": "Heineken 0,3L",
+                    "price": 2.50
+                },
+                {
+                    "name": "Heineken non-alcoholic 0,3L",
+                    "price": 2.40
+                }
+            ]
+        },
+        {
+            "Spirits": [
+                {
+                    "name": "Marelica 0,03L",
+                    "price": 3.10
+                },
+                {
+                    "name": "Kutina/dunja 0,03L",
+                    "price": 3.10
+                },
+                {
+                    "name": "Viljamovka 0,03L",
+                    "price": 3.10
+                },
+                {
+                    "name": "Jägermeister 0,03L",
+                    "price": 2.80
+                },
+                {
+                    "name": "Pelinkovec 0,03L",
+                    "price": 2.50
+                },
+                {
+                    "name": "Jack Daniels 0,03L",
+                    "price": 3.20
+                },
+                {
+                    "name": "Jameson 0,03L",
+                    "price": 3.20
+                },
+                {
+                    "name": "Vodka Smirnoff 0,03L",
+                    "price": 2.60
+                }
+            ]
+        }
+    ]
+}

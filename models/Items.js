@@ -1,19 +1,18 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const Schema = mongoose.Schema;
 
 const Item = {
-    name: String,
-    price: Number,
-    type: String,
-    imgSrc: String,
-    inventory: Number
-}
+	name: String,
+	price: Number,
+	type: String,
+	imgSrc: String,
+};
 
 const Items = new Schema({
-    group: String,
-    products: Array
+	lang: String,
+	group: String,
+	items: Array,
 });
 
-
-mongoose.model('Items', Items);
+mongoose.model("Items", Items);

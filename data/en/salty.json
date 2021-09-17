@@ -1,4 +1,7 @@
-[
+{
+    "lang": "en",
+    "group": "slano",
+    "items": [
     {
         "Meat/salami": [
             {
@@ -48,7 +51,7 @@
         ]
     },
     {
-        "Other": [
+        "Toppings": [
             {
                 "name": "Ketchup",
                 "price": 0.50
@@ -60,3 +63,4 @@
         ]
     }
 ]
+}

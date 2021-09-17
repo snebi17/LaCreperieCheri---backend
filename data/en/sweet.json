@@ -1,278 +1,274 @@
-[
-    {
-        "Pancakes fi 50": [
-            {
-                "name": "Regular pancake",
-                "price": 2.90
-            },
-            {
-                "name": "Choco pancake",
-                "price": 2.90
-            },
-            {
-                "name": "Buckwheat pancake",
-                "price": 3.00
-            },
-            {
-                "name": "Red Velvet",
-                "price": 3.00
-            }
-        ]
-    },
-    {
-        "Premium spreads": [
-            {
-                "name": "Ruby chocolate",
-                "price": 2.50
-            },
-            {
-                "name": "Speculaas",
-                "price": 1.80
-            },
-            {
-                "name": "Crunchy strawberry",
-                "price": 1.80
-            },
-            {
-                "name": "Pistacchio",
-                "price": 2.00
-            },
-            {
-                "name": "White premium chocolate",
-                "price": 1.60
-            },
-            {
-                "name": "White crunchy chocolate",
-                "price": 1.70
-            },
-            {
-                "name": "Grated orange",
-                "price": 1.80
-            }
-        ]
-    },
-    {
-        "Sweet spreads": [
-            {
-                "name": "Ferrero",
-                "price": 1.40
-            },
-            {
-                "name": "Raffaello",
-                "price": 1.40
-            },
-            {
-                "name": "Nutella",
-                "price": 1.40
-            },
-            {
-                "name": "White",
-                "price": 1.30
-            },
-            {
-                "name": "Kinder",
-                "price": 1.30
-            },
-            {
-                "name": "Peanut",
-                "price": 1.30
-            },
-            {
-                "name": "Marmelade",
-                "price": 1.00
-            },
-            {
-                "name": "Honey",
-                "price": 0.90
-            }
-        ]
-    },
-    {
-        "Chocolates": [
-            {
-                "name": "Raffaello",
-                "price": 0.80
-            },
-            {
-                "name": "Ferrero Rocher",
-                "price": 0.90
-            },
-            {
-                "name": "Kinder Bueno white",
-                "price": 0.90
-            },
-            {
-                "name": "Kinder Bueno dark",
-                "price": 0.90
-            },
-            {
-                "name": "Kinder chocolate",
-                "price": 1.00
-            },
-            {
-                "name": "Krem banana",
-                "price": 0.70
-            },
-            {
-                "name": "Twix",
-                "price": 0.90
-            },
-            {
-                "name": "Mars",
-                "price": 0.90
-            },
-            {
-                "name": "M&Ms",
-                "price": 0.70
-            }
-        ]
-    },
-    {
-        "Biscuits": [
-            {
-                "name": "Oreo",
-                "price": 0.80
-            },
-            {
-                "name": "Oreo crumbs",
-                "price": 0.90
-            },
-            {
-                "name": "Oreo in milk",
-                "price": 1.00
-            },
-            {
-                "name": "Plazma",
-                "price": 0.90
-            },
-            {
-                "name": "Plazma in milk",
-                "price": 1.00
-            },
-            {
-                "name": "Jaffa",
-                "price": 0.70
-            },
-            {
-                "name": "Manner wafer",
-                "price": 0.80
-            }
-        ]
-    },
-    {
-        "Fruit": [
-            {
-                "name": "Strawberries (season)",
-                "price": 1.00
-            },
-            {
-                "name": "Raspberries",
-                "price": 1.00
-            },
-            {
-                "name": "Bananas",
-                "price": 0.80
-            },
-            {
-                "name": "Sour cherries",
-                "price": 0.80
-            },
-            {
-                "name": "Forest fruits",
-                "price": 1.00
-            },
-            {
-                "name": "Ananas",
-                "price": 0.90
-            }
-        ]
-    },
-    {
-        "Nuts": [
-            {
-                "name": "Almonds",
-                "price": 1.00
-            },
-            {
-                "name": "Peanuts",
-                "price": 0.80
-            },
-            {
-                "name": "Walnuts",
-                "price": 0.90
-            },
-            {
-                "name": "Coconut",
-                "price": 0.70
-            },
-            {
-                "name": "Hazelnut",
-                "price": 1.00
-            }
-        ]
-    },
-    {
-        "Toppings": [
-            {
-                "name": "Bailey's chocolate liquor",
-                "price": 1.60
-            },
-            {
-                "name": "Bailey's almond liquor",
-                "price": 1.60
-            },
-            {
-                "name": "Caramel topping",
-                "price": 0.70
-            },
-            {
-                "name": "Chocolate topping",
-                "price": 0.70
-            },
-            {
-                "name": "Strawberry topping",
-                "price": 0.70
-            },
-            {
-                "name": "Forest fruits topping",
-                "price": 0.70
-            },
-            {
-                "name": "Vanilla ice-cream (1 scoop)",
-                "price": 1.00
-            },
-            {
-                "name": "Chocolate ice-cream (1 scoop)",
-                "price": 1.00
-            },
-            {
-                "name": "Chocolate pudding",
-                "price": 0.90
-            },
-            {
-                "name": "Vanilla pudding",
-                "price": 0.90
-            },
-            {
-                "name": "Cream",
-                "price": 0.60
-            },
-            {
-                "name": "Nesquik cocoa",
-                "price": 0.60
-            },
-            {
-                "name": "Chocolate crumbs",
-                "price": 0.60
-            },
-            {
-                "name": "Coloured crumbs",
-                "price": 0.60
-            },
-            {
-                "name": "Icing sugar",
-                "price": 0.40
-            }
-        ]
-    }
-]
+{
+    "lang": "en",
+    "group": "sladko",
+    "items": [
+        {
+            "Base": [
+                {
+                    "name": "Regular pancake",
+                    "price": 2.90
+                },
+                {
+                    "name": "Choco pancake",
+                    "price": 2.90
+                },
+                {
+                    "name": "Buckwheat pancake",
+                    "price": 3.00
+                },
+                {
+                    "name": "Red velvet",
+                    "price": 3.00
+                }
+            ]
+        },
+        {
+            "Premium spreads": [
+                {
+                    "name": "Ruby chocolate",
+                    "price": 2.50
+                },
+                {
+                    "name": "Speculaas",
+                    "price": 1.80
+                },
+                {
+                    "name": "Crunchy strawberry",
+                    "price": 1.80
+                },
+                {
+                    "name": "Pistacchio",
+                    "price": 2.00
+                },
+                {
+                    "name": "White premium chocolate",
+                    "price": 1.60
+                },
+                {
+                    "name": "White crunchy chocolate",
+                    "price": 1.70
+                },
+                {
+                    "name": "Grated orange",
+                    "price": 1.80
+                }
+            ]
+        },
+        {
+            "Sweet spreads": [
+                {
+                    "name": "Ferrero",
+                    "price": 1.40
+                },
+                {
+                    "name": "Raffaello",
+                    "price": 1.40
+                },
+                {
+                    "name": "Nutella",
+                    "price": 1.40
+                },
+                {
+                    "name": "Kinder",
+                    "price": 1.30
+                },
+                {
+                    "name": "Peanut",
+                    "price": 1.30
+                },
+                {
+                    "name": "Marmelade",
+                    "price": 1.00
+                }
+            ]
+        },
+        {
+            "Chocolates": [
+                {
+                    "name": "Raffaello",
+                    "price": 0.80
+                },
+                {
+                    "name": "Ferrero Rocher",
+                    "price": 0.90
+                },
+                {
+                    "name": "Kinder Bueno white",
+                    "price": 0.90
+                },
+                {
+                    "name": "Kinder Bueno dark",
+                    "price": 0.90
+                },
+                {
+                    "name": "Kinder chocolate",
+                    "price": 1.00
+                },
+                {
+                    "name": "Krem banana",
+                    "price": 0.70
+                },
+                {
+                    "name": "Twix",
+                    "price": 0.90
+                },
+                {
+                    "name": "Mars",
+                    "price": 0.90
+                },
+                {
+                    "name": "Smarties",
+                    "price": 0.70
+                }
+            ]
+        },
+        {
+            "Biscuits": [
+                {
+                    "name": "Oreo",
+                    "price": 0.80
+                },
+                {
+                    "name": "Oreo crumbs",
+                    "price": 0.90
+                },
+                {
+                    "name": "Oreo in milk",
+                    "price": 1.00
+                },
+                {
+                    "name": "Plazma",
+                    "price": 0.90
+                },
+                {
+                    "name": "Plazma in milk",
+                    "price": 1.00
+                },
+                {
+                    "name": "Jaffa",
+                    "price": 0.70
+                },
+                {
+                    "name": "Manner wafer",
+                    "price": 0.80
+                }
+            ]
+        },
+        {
+            "Fruit": [
+                {
+                    "name": "Strawberries",
+                    "price": 1.00
+                },
+                {
+                    "name": "Raspberries",
+                    "price": 1.00
+                },
+                {
+                    "name": "Bananas",
+                    "price": 0.80
+                },
+                {
+                    "name": "Sour cherries",
+                    "price": 0.80
+                },
+                {
+                    "name": "Forest fruits",
+                    "price": 1.00
+                },
+                {
+                    "name": "Ananas",
+                    "price": 0.90
+                }
+            ]
+        },
+        {
+            "Nuts": [
+                {
+                    "name": "Almonds",
+                    "price": 1.00
+                },
+                {
+                    "name": "Peanuts",
+                    "price": 0.80
+                },
+                {
+                    "name": "Walnuts",
+                    "price": 0.90
+                },
+                {
+                    "name": "Coconut",
+                    "price": 0.70
+                },
+                {
+                    "name": "Hazelnut",
+                    "price": 1.00
+                }
+            ]
+        },
+        {
+            "Toppings": [
+                {
+                    "name": "Bailey's chocolate liquor",
+                    "price": 1.60
+                },
+                {
+                    "name": "Bailey's almond liquor",
+                    "price": 1.60
+                },
+                {
+                    "name": "Caramel topping",
+                    "price": 0.70
+                },
+                {
+                    "name": "Chocolate topping",
+                    "price": 0.70
+                },
+                {
+                    "name": "Strawberry topping",
+                    "price": 0.70
+                },
+                {
+                    "name": "Forest fruits topping",
+                    "price": 0.70
+                },
+                {
+                    "name": "Vanilla ice-cream (1 scoop)",
+                    "price": 1.00
+                },
+                {
+                    "name": "Chocolate ice-cream (1 scoop)",
+                    "price": 1.00
+                },
+                {
+                    "name": "Chocolate pudding",
+                    "price": 0.90
+                },
+                {
+                    "name": "Vanilla pudding",
+                    "price": 0.90
+                },
+                {
+                    "name": "Cream",
+                    "price": 0.60
+                },
+                {
+                    "name": "Nesquik cocoa",
+                    "price": 0.60
+                },
+                {
+                    "name": "Chocolate crumbs",
+                    "price": 0.60
+                },
+                {
+                    "name": "Coloured crumbs",
+                    "price": 0.60
+                },
+                {
+                    "name": "Icing sugar",
+                    "price": 0.40
+                }
+            ]
+        }
+    ]
+}

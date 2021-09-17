@@ -8,7 +8,7 @@ const axios = require("axios");
 const cors = require("cors");
 
 server.use(cors({ origin: `${URL}:8080` }));
-axios.defaults.baseURL = "http://192.168.0.26:4000";
+axios.defaults.baseURL = "http://localhost:4000";
 
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({ extended: true }));
@@ -16,17 +16,5 @@ server.use(bodyParser.urlencoded({ extended: true }));
 require("./models/db");
 require("./routes/Items")(server);
 require("./routes/Orders")(server);
-
-// app.get('/menu', (req, res, next) => {
-// 	let sweet = require(`./data/${req.query.lang}/sweet.json`);
-// 	let salty = require(`./data/${req.query.lang}/salty.json`);
-// 	let drinks = require(`./data/${req.query.lang}/drinks.json`);
-
-// 	res.json({
-// 		'sweet': sweet,
-// 		'salty': salty,
-// 		'drinks': drinks
-// 	});
-// });
 
 server.listen(PORT);

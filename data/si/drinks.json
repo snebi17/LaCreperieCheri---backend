@@ -1,278 +1,238 @@
-[
-    {
-        "Kave": [
-            {
-                "name": "Espresso",
-                "price": 1.20
-            },
-            {
-                "name": "Macchiato",
-                "price": 1.30
-            },
-            {
-                "name": "Latte macchiato",
-                "price": 2.20
-            },
-            {
-                "name": "Z mlekom",
-                "price": 1.40
-            },
-            {
-                "name": "S smetano",
-                "price": 1.50
-            },
-            {
-                "name": "Cappuccino",
-                "price": 1.40
-            },
-            {
-                "name": "Bela",
-                "price": 2.00
-            },
-            {
-                "name": "Brez kofeina",
-                "price": 1.70
-            },
-            {
-                "name": "Brez kofeina z mlekom",
-                "price": 1.80
-            },
-            {
-                "name": "Brez kofeina s smetano",
-                "price": 1.90
-            },
-            {
-                "name": "Bela brez kofeina",
-                "price": 2.20
-            },
-            {
-                "name": "Kakav",
-                "price": 2.00
-            },
-            {
-                "name": "Kakav s smetano",
-                "price": 2.20
-            },
-            {
-                "name": "Lonček to go",
-                "price": 0.20
-            }
-        ]
-    },
-    {
-        "Čaji": [
-            {
-                "name": "Zelen - meta",
-                "price": 1.90
-            },
-            {
-                "name": "Zelen - ingver & limona",
-                "price": 1.90
-            },
-            {
-                "name": "Jagoda & rooibos",
-                "price": 1.90
-            },
-            {
-                "name": "Borovnica & češnja",
-                "price": 1.90
-            },
-            {
-                "name": "Planinski",
-                "price": 1.90
-            }
-        ]
-    },
-    {
-        "Dodatki": [
-            {
-                "name": "Limona",
-                "price": 0.30
-            },
-            {
-                "name": "Mleko",
-                "price": 0.30
-            },
-            {
-                "name": "Smetana",
-                "price": 0.50
-            },
-            {
-                "name": "Sojino mleko",
-                "price": 0.50
-            },
-            {
-                "name": "Riževo mleko",
-                "price": 0.50
-            },
-            {
-                "name": "Mleko brez lasktoze",
-                "price": 0.50
-            }
-        ]
-    },
-    {
-        "Brezalkoholne pijače": [
-            {
-                "name": "Naravni pomarančni sok 0.1L",
-                "price": 1.40
-            },
-            {
-                "name": "Naravna limonada 0.1L",
-                "price": 2.30
-            },
-            {
-                "name": "Naravna limonada z ingverjem in medom 0.3L",
-                "price": 2.60
-            },
-            {
-                "name": "Jabolčni/pomarančni sok 0.1L",
-                "price": 1.00
-            },
-            {
-                "name": "Voda limonska trava 0.33L",
-                "price": 2.10
-            },
-            {
-                "name": "Coca-cola 0.25L",
-                "price": 2.20
-            },
-            {
-                "name": "Schweppes tonik 0.25L",
-                "price": 2.20
-            },
-            {
-                "name": "Schweppes bitter lemon 0.25L",
-                "price": 2.20
-            },
-            {
-                "name": "Fanta 0.25L",
-                "price": 2.20
-            },
-            {
-                "name": "Ledeni čaj 0.25L",
-                "price": 2.10
-            },
-            {
-                "name": "Radenska gazirana 0.25L",
-                "price": 1.80
-            },
-            {
-                "name": "Radenska negazirana 0.25L",
-                "price": 1.80
-            },
-            {
-                "name": "Radenska 0.1L",
-                "price": 0.50
-            }
-        ]
-    },
-    {
-        "Bravo sokovi 0.25L": [
-            {
-                "name": "Marelica",
-                "price": 2.10
-            },
-            {
-                "name": "Pomaranča",
-                "price": 2.10
-            },
-            {
-                "name": "Ananas",
-                "price": 2.10
-            },
-            {
-                "name": "Črni ribez",
-                "price": 2.10
-            },
-            {
-                "name": "Jagoda",
-                "price": 2.10
-            }
-        ]
-    },
-    {
-        "Alkoholne pijače": [
-            {
-                "name": "Aperol Spritz",
-                "price": 3.60
-            },
-            {
-                "name": "Penina 0.75L",
-                "price": 20.00
-            },
-            {
-                "name": "Belo vino 0.1L",
-                "price": 1.30
-            },
-            {
-                "name": "Rdeče vino 0.1L",
-                "price": 1.30
-            },
-            {
-                "name": "Kuhano vino 0.25L",
-                "price": 2.50
-            },
-            {
-                "name": "Gin tonik",
-                "price": 3.90
-            }
-        ]
-    },
-    {
-        "Pivo": [
-            {
-                "name": "Heineken 0.3L",
-                "price": 2.50
-            },
-            {
-                "name": "Heineken brezalkoholno 0.3L",
-                "price": 2.40
-            }
-        ]
-    },
-    {
-        "Žgane pijače": [
-            {
-                "name": "Marelica 0.03L",
-                "price": 3.10
-            },
-            {
-                "name": "Kutina/dunja 0.03L",
-                "price": 3.10
-            },
-            {
-                "name": "Viljamovka 0.03L",
-                "price": 3.10
-            },
-            {
-                "name": "Jägermeister 0.03L",
-                "price": 2.80
-            },
-            {
-                "name": "Pelinkovec 0.03L",
-                "price": 2.50
-            },
-            {
-                "name": "Jack Daniels 0.03L",
-                "price": 3.20
-            },
-            {
-                "name": "Jameson 0.03L",
-                "price": 3.20
-            },
-            {
-                "name": "Vodka Smirnoff 0.03L",
-                "price": 2.60
-            },
-            {
-                "name": "Gin 0.03L",
-                "price": 2.80
-            },
-            {
-                "name": "Bacardi rum 0.03L",
-                "price": 2.80
-            }
-        ]
-    }
-]
+{
+    "lang": "si",
+    "group": "pijače",
+    "items": [
+        {
+            "Kave": [
+                {
+                    "name": "Espresso",
+                    "price": 1.20
+                },
+                {
+                    "name": "Macchiato",
+                    "price": 1.30
+                },
+                {
+                    "name": "Latte macchiato",
+                    "price": 2.20
+                },
+                {
+                    "name": "Z mlekom",
+                    "price": 1.40
+                },
+                {
+                    "name": "S smetano",
+                    "price": 1.50
+                },
+                {
+                    "name": "Cappuccino",
+                    "price": 1.40
+                },
+                {
+                    "name": "Bela",
+                    "price": 2.00
+                },
+                {
+                    "name": "Brez kofeina",
+                    "price": 1.70
+                },
+                {
+                    "name": "Brez kofeina z mlekom",
+                    "price": 1.80
+                },
+                {
+                    "name": "Brez kofeina s smetano",
+                    "price": 1.90
+                },
+                {
+                    "name": "Bela brez kofeina",
+                    "price": 2.20
+                },
+                {
+                    "name": "Kakav",
+                    "price": 2.00
+                },
+                {
+                    "name": "Kakav s smetano",
+                    "price": 2.20
+                }
+            ]
+        },
+        {
+            "Dodatki": [
+                {
+                    "name": "Limona",
+                    "price": 0.30
+                },
+                {
+                    "name": "Mleko",
+                    "price": 0.30
+                },
+                {
+                    "name": "Smetana",
+                    "price": 0.50
+                },
+                {
+                    "name": "Sojin napitek",
+                    "price": 0.50
+                },
+                {
+                    "name": "Rižev napitek",
+                    "price": 0.50
+                }
+            ]
+        },
+        {
+            "Brezalkoholne pijače": [
+                {
+                    "name": "Naravni pomarančni sok 0,1L",
+                    "price": 1.40
+                },
+                {
+                    "name": "Naravna limonada 0,3L",
+                    "price": 2.30
+                },
+                {
+                    "name": "Naravna limonada z ingverjem in medom 0,3L",
+                    "price": 2.60
+                },
+                {
+                    "name": "Voda limonska trava Romequelle 0,33L",
+                    "price": 2.10
+                },
+                {
+                    "name": "Coca-cola, Coca-cola zero 0,25L",
+                    "price": 2.20
+                },
+                {
+                    "name": "Schweppes tonik 0,25L",
+                    "price": 2.20
+                },
+                {
+                    "name": "Schweppes bitter lemon 0,25L",
+                    "price": 2.20
+                },
+                {
+                    "name": "Fanta 0,25L",
+                    "price": 2.20
+                },
+                {
+                    "name": "Ledeni čaj 0,25L",
+                    "price": 2.10
+                },
+                {
+                    "name": "Radenska gazirana 0,25L",
+                    "price": 1.80
+                },
+                {
+                    "name": "Radenska negazirana 0,25L",
+                    "price": 1.80
+                },
+                {
+                    "name": "Radenska 0,1L",
+                    "price": 0.50
+                },
+                {
+                    "name": "Radenska bezeg 0,25L",
+                    "price": 1.80
+                },
+                {
+                    "name": "Radenska mango limeta 0,25L",
+                    "price": 1.80
+                },
+                {
+                    "name": "Oaza bezeg 0,25L",
+                    "price": 1.80
+                }
+            ]
+        },
+        {
+            "Bravo sokovi 0,25L": [
+                {
+                    "name": "Marelica",
+                    "price": 2.10
+                },
+                {
+                    "name": "Pomaranča",
+                    "price": 2.10
+                },
+                {
+                    "name": "Jabolko",
+                    "price": 2.10
+                },
+                {
+                    "name": "Črni ribez",
+                    "price": 2.10
+                },
+                {
+                    "name": "Jagoda",
+                    "price": 2.10
+                }
+            ]
+        },
+        {
+            "Alkoholne pijače": [
+                {
+                    "name": "Aperol Spritz",
+                    "price": 3.60
+                },
+                {
+                    "name": "Penina 0,75L",
+                    "price": 20.00
+                },
+                {
+                    "name": "Gin tonik",
+                    "price": 3.90
+                }
+            ]
+        },
+        {
+            "Pivo": [
+                {
+                    "name": "Heineken 0,3L",
+                    "price": 2.50
+                },
+                {
+                    "name": "Heineken brezalkoholno 0,3L",
+                    "price": 2.40
+                }
+            ]
+        },
+        {
+            "Žgane pijače": [
+                {
+                    "name": "Marelica 0.03L",
+                    "price": 3.10
+                },
+                {
+                    "name": "Kutina/dunja 0,03L",
+                    "price": 3.10
+                },
+                {
+                    "name": "Viljamovka 0,03L",
+                    "price": 3.10
+                },
+                {
+                    "name": "Jägermeister 0,03L",
+                    "price": 2.80
+                },
+                {
+                    "name": "Pelinkovec 0.03L",
+                    "price": 2.50
+                },
+                {
+                    "name": "Jack Daniels 0,03L",
+                    "price": 3.20
+                },
+                {
+                    "name": "Jameson 0,03L",
+                    "price": 3.20
+                },
+                {
+                    "name": "Vodka Smirnoff 0,03L",
+                    "price": 2.60
+                }
+            ]
+        }
+    ]
+}
