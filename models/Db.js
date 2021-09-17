@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const dbURI = 'mongodb://localhost:27017/la-creperie-cheri';
-require('./Item');
+require('./Items');
 require('./Order');
 
 mongoose.connect(dbURI, {
