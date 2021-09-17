@@ -20,9 +20,9 @@ app.get("/menu", (req, res, next) => {
 	let other = require("./data/other.json");
 
 	let products = [];
-	products.push({ name: "sladko", items: [... sweet ]});
-	products.push({ name: "slano", items: [... salty ]});
-	products.push({ name: "ostalo", items: [... other ]});
+	products.push(sweet);
+	products.push(salty);
+	products.push(other);
 
 	res.json(products);
 });
