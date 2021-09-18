@@ -3,12 +3,17 @@ const mongoose = require("mongoose");
 const Items = mongoose.model("Items");
 
 exports.addItem = (req, res) => {
-	console.log("hehehe");
 	let body = {
 		lang: req.body.lang,
 		group: req.body.group,
-		items: req.body.items,
+		items: [],
 	};
+
+	req.body.items.forEach((el) => {
+		body.items.push({ type: el.type, products: el.products });
+	});
+
+	console.log(body);
 
 	if (!body.lang || !body.group || !body.items.length) {
 		return res.status(400).send({

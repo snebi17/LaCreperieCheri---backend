@@ -3,7 +3,8 @@
     "group": "pijače",
     "items": [
         {
-            "Kave": [
+            "type": "Kave",
+            "products": [
                 {
                     "name": "Espresso",
                     "price": 1.20
@@ -59,7 +60,8 @@
             ]
         },
         {
-            "Dodatki": [
+            "type": "Dodatki",
+            "products": [
                 {
                     "name": "Limona",
                     "price": 0.30
@@ -83,7 +85,8 @@
             ]
         },
         {
-            "Brezalkoholne pijače": [
+            "type": "Brezalkoholne pijače",
+            "products": [
                 {
                     "name": "Naravni pomarančni sok 0,1L",
                     "price": 1.40
@@ -147,7 +150,8 @@
             ]
         },
         {
-            "Bravo sokovi 0,25L": [
+            "type": "Bravo sokovi 0,25L",
+            "products": [
                 {
                     "name": "Marelica",
                     "price": 2.10
@@ -171,7 +175,8 @@
             ]
         },
         {
-            "Alkoholne pijače": [
+            "type": "Alkoholne pijače",
+            "products": [
                 {
                     "name": "Aperol Spritz",
                     "price": 3.60
@@ -187,7 +192,8 @@
             ]
         },
         {
-            "Pivo": [
+            "type": "Pivo",
+            "products": [
                 {
                     "name": "Heineken 0,3L",
                     "price": 2.50
@@ -199,7 +205,8 @@
             ]
         },
         {
-            "Žgane pijače": [
+            "type": "Žgane pijače",
+            "products": [
                 {
                     "name": "Marelica 0.03L",
                     "price": 3.10

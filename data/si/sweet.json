@@ -3,7 +3,8 @@
     "group": "sladko",
     "items": [
         {
-            "Osnova": [
+            "type": "Osnova",
+            "products": [
                 {
                     "name": "Navadna palačinka",
                     "price": 2.90
@@ -23,7 +24,8 @@
             ]
         },
         {
-            "Premium namazi": [
+            "type": "Premium namazi",
+            "products": [
                 {
                     "name": "Ruby čokolada",
                     "price": 2.50
@@ -55,7 +57,8 @@
             ]
         },
         {
-            "Sladki namazi": [
+            "type": "Sladki namazi",
+            "products": [
                 {
                     "name": "Ferrero",
                     "price": 1.40
@@ -87,7 +90,8 @@
             ]
         },
         {
-            "Čokoladice": [
+            "type": "Čokoladice",
+            "products": [
                 {
                     "name": "Raffaello",
                     "price": 0.80
@@ -127,7 +131,8 @@
             ]
         },
         {
-            "Keksi/biskvit": [
+            "type": "Keksi/biskvit",
+            "products": [
                 {
                     "name": "Oreo",
                     "price": 0.80
@@ -159,7 +164,8 @@
             ]
         },
         {
-            "Sadje": [
+            "type": "Sadje",
+            "products": [
                 {
                     "name": "Jagode",
                     "price": 1.00
@@ -187,7 +193,8 @@
             ]
         },
         {
-            "Oreščki": [
+            "type": "Oreščki",
+            "products": [
                 {
                     "name": "Mandlji",
                     "price": 1.00
@@ -211,7 +218,8 @@
             ]
         },
         {
-            "Prelivi": [
+            "type": "Prelivi",
+            "products": [
                 {
                     "name": "Bailey's čokoladni liker",
                     "price": 1.60

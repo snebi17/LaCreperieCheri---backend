@@ -3,7 +3,8 @@
     "group": "slano",
     "items": [
         {
-            "Meso/salame": [
+            "type": "Meso/salame",
+            "products": [
                 {
                     "name": "Suha vratovina",
                     "price": 2.80
@@ -23,7 +24,8 @@
             ]
         },
         {
-        "Namazi": [
+        "type": "Namazi",
+        "products": [
                 {
                     "name": "Kajmak",
                     "price": 2.00
@@ -35,7 +37,8 @@
         ]
         },
         {
-            "Siri": [
+            "type": "Siri",
+            "products": [
                 {
                     "name": "Feta",
                     "price": 1.50
@@ -51,7 +54,8 @@
             ]
         },
         {
-            "Ostalo": [
+            "type": "Ostalo",
+            "products": [
                 {
                     "name": "Kečap",
                     "price": 0.50
