@@ -3,7 +3,8 @@
     "group": "sladko",
     "items": [
         {
-            "Base": [
+            "type": "Base",
+            "products": [
                 {
                     "name": "Regular pancake",
                     "price": 2.90
@@ -23,7 +24,8 @@
             ]
         },
         {
-            "Premium spreads": [
+            "type": "Premium spreads",
+            "products": [
                 {
                     "name": "Ruby chocolate",
                     "price": 2.50
@@ -55,7 +57,8 @@
             ]
         },
         {
-            "Sweet spreads": [
+            "type": "Sweet spreads",
+            "products": [
                 {
                     "name": "Ferrero",
                     "price": 1.40
@@ -83,7 +86,8 @@
             ]
         },
         {
-            "Chocolates": [
+            "type": "Chocolates",
+            "products": [
                 {
                     "name": "Raffaello",
                     "price": 0.80
@@ -123,7 +127,8 @@
             ]
         },
         {
-            "Biscuits": [
+            "type": "Biscuits",
+            "products": [
                 {
                     "name": "Oreo",
                     "price": 0.80
@@ -155,7 +160,8 @@
             ]
         },
         {
-            "Fruit": [
+            "type": "Fruit",
+            "products": [
                 {
                     "name": "Strawberries",
                     "price": 1.00
@@ -175,15 +181,12 @@
                 {
                     "name": "Forest fruits",
                     "price": 1.00
-                },
-                {
-                    "name": "Ananas",
-                    "price": 0.90
                 }
             ]
         },
         {
-            "Nuts": [
+            "type": "Nuts",
+            "products": [
                 {
                     "name": "Almonds",
                     "price": 1.00
@@ -207,7 +210,8 @@
             ]
         },
         {
-            "Toppings": [
+            "type": "Toppings",
+            "products": [
                 {
                     "name": "Bailey's chocolate liquor",
                     "price": 1.60
@@ -218,10 +222,6 @@
                 },
                 {
                     "name": "Caramel topping",
-                    "price": 0.70
-                },
-                {
-                    "name": "Chocolate topping",
                     "price": 0.70
                 },
                 {

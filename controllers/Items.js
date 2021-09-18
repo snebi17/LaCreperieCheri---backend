@@ -13,8 +13,6 @@ exports.addItem = (req, res) => {
 		body.items.push({ type: el.type, products: el.products });
 	});
 
-	console.log(body);
-
 	if (!body.lang || !body.group || !body.items.length) {
 		return res.status(400).send({
 			message: "Prosimo, izpolnite vsa polja!",
@@ -111,7 +109,11 @@ exports.getItems = (req, res) => {
 					message: "Izdelki niso bili najdeni!",
 				});
 			}
-			console.log(items);
+
+			let data = [];
+			items.forEach((item) => {
+				data.push(item.items);
+			});
 			// const groupBy = (key) => (array) =>
 			// 	array.reduce((objectsByKeyValue, obj) => {
 			// 		const value = obj[key];
@@ -127,7 +129,7 @@ exports.getItems = (req, res) => {
 			// let drinks = groupByType(items[2].products);
 
 			res.json({
-				items,
+				data,
 			});
 		})
 		.catch((err) => {

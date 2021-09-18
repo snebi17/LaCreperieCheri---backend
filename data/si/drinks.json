@@ -104,7 +104,11 @@
                     "price": 2.10
                 },
                 {
-                    "name": "Coca-cola, Coca-cola zero 0,25L",
+                    "name": "Coca-cola 0,25L",
+                    "price": 2.20
+                },
+                {
+                    "name": "Coca-cola zero 0,25L",
                     "price": 2.20
                 },
                 {
@@ -113,6 +117,10 @@
                 },
                 {
                     "name": "Schweppes bitter lemon 0,25L",
+                    "price": 2.20
+                },
+                {
+                    "name": "Schweppes pink grape 0,25L",
                     "price": 2.20
                 },
                 {
@@ -140,7 +148,7 @@
                     "price": 1.80
                 },
                 {
-                    "name": "Radenska mango limeta 0,25L",
+                    "name": "Radenska mango-limeta 0,25L",
                     "price": 1.80
                 },
                 {
@@ -171,6 +179,10 @@
                 {
                     "name": "Jagoda",
                     "price": 2.10
+                },
+                {
+                    "name": "Mango",
+                    "price": 2.10
                 }
             ]
         },
@@ -179,7 +191,7 @@
             "products": [
                 {
                     "name": "Aperol Spritz",
-                    "price": 3.60
+                    "price": 3.90
                 },
                 {
                     "name": "Penina 0,75L",
@@ -208,7 +220,7 @@
             "type": "Žgane pijače",
             "products": [
                 {
-                    "name": "Marelica 0.03L",
+                    "name": "Marelica 0,03L",
                     "price": 3.10
                 },
                 {

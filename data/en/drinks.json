@@ -3,7 +3,8 @@
     "group": "pijače",
     "items": [
         {
-            "Coffee": [
+            "type": "Coffee",
+            "products": [
                 {
                     "name": "Espresso",
                     "price": 1.20
@@ -59,7 +60,8 @@
             ]
         },
         {
-            "Supplements": [
+            "type": "Supplements",
+            "products": [
                 {
                     "name": "Lemon",
                     "price": 0.30
@@ -83,7 +85,8 @@
             ]
         },
         {
-            "Non-alcoholic drinks": [
+            "type": "Non-alcoholic drinks",
+            "products": [
                 {
                     "name": "Natural orange juice 0,1L",
                     "price": 1.40
@@ -147,7 +150,8 @@
             ]
         },
         {
-            "Bravo juices 0,25L": [
+            "type": "Bravo juices 0,25L",
+            "products": [
                 {
                     "name": "Apricot",
                     "price": 2.10
@@ -171,7 +175,8 @@
             ]
         },
         {
-            "Alcoholic drinks": [
+            "type": "Alcoholic drinks",
+            "products": [
                 {
                     "name": "Aperol Spritz",
                     "price": 3.60
@@ -187,7 +192,8 @@
             ]
         },
         {
-            "Beer": [
+            "type": "Beer",
+            "products": [
                 {
                     "name": "Heineken 0,3L",
                     "price": 2.50
@@ -199,7 +205,8 @@
             ]
         },
         {
-            "Spirits": [
+            "type": "Spirits",
+            "products": [
                 {
                     "name": "Marelica 0,03L",
                     "price": 3.10
