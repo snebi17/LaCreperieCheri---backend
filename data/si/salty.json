@@ -3,6 +3,32 @@
     "group": "slano",
     "items": [
         {
+            "type": "Osnova",
+            "products": [
+                {
+                    "name": "Navadna palačinka",
+                    "price": 2.90
+                },
+                {
+                    "name": "Ajdova palačinka",
+                    "price": 3.00
+                }
+            ]
+        },
+        {
+            "type": "Namazi",
+            "products": [
+                {
+                    "name": "Kajmak",
+                    "price": 2.00
+                },
+                {
+                    "name": "Smetana",
+                    "price": 0.60
+                }
+            ]
+        },
+        {
             "type": "Meso/salame",
             "products": [
                 {
@@ -22,19 +48,6 @@
                     "price": 1.80
                 }
             ]
-        },
-        {
-        "type": "Namazi",
-        "products": [
-                {
-                    "name": "Kajmak",
-                    "price": 2.00
-                },
-                {
-                    "name": "Smetana",
-                    "price": 0.60
-                }
-        ]
         },
         {
             "type": "Siri",
